@@ -4,9 +4,10 @@ We conduct a statistical analysis of the sunspot number (SSN) for solar cycle 25
 
 ## Acknowledgements
 
-This project builds upon the LSTM model architecture originally developed in:
+This project draws inspiration from the educational content provided by [Spartificial](https://github.com/Spartificial), particularly the [YouTube Academic Projects repository](https://github.com/Spartificial/yt-acad-projs) (2021).
 
-- [Spartificial/yt-acad-projs](https://github.com/Spartificial/yt-acad-projs) (2021) by [@Spartificial](https://github.com/Spartificial)
+The Long Short-Term Memory (LSTM) model architecture used in this work is based on the implementation shared in that repository, which complements a YouTube video series focused on machine learning and space-related student projects.
 
-We would like to thank the original author for their contribution. The LSTM implementation from that repository served as the foundation for the model adaptation used in this project.
+> **Note:** The original repository does not include a license file. The referenced material was used strictly for academic and non-commercial research purposes.
 
+[YouTube Academic Projects Playlist](https://www.youtube.com/playlist?list=PLRj2DdfTEVZgcNnaLAxkJQ6WjDL7qzp1N)
