@@ -53,5 +53,5 @@ The dataset was obtained from the [Solar Influences Data Center (SILSO)](https:/
 - `[32–35]` → Number of observations  
 - `[37]` → Definitive/provisional indicator  
 
-**Note**: The final column shows whether the data is provisional (`*`) or finalized (blank).
+> **Note**: The final column shows whether the data is provisional (`*`) or finalized (blank).
 
