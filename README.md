@@ -11,3 +11,47 @@ The Long Short-Term Memory (LSTM) model architecture used in this work is based 
 > **Note:** The original repository does not include a license file. The referenced material was used strictly for academic and non-commercial research purposes.
 
 [YouTube Academic Projects Playlist](https://www.youtube.com/playlist?list=PLRj2DdfTEVZgcNnaLAxkJQ6WjDL7qzp1N)
+
+
+## Dataset Source
+
+The dataset was obtained from the [Solar Influences Data Center (SILSO)](https://www.sidc.be/silso/), operated by the Royal Observatory of Belgium.
+
+- **Source**: Solar Influences Data Center (SILSO)
+- **Link**: [SN_m_tot_V2.0.txt](https://www.sidc.be/SILSO/DATA/SN_ms_tot_V2.0.txt)
+- **Data Type**: Monthly mean total sunspot number
+- **License**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+- **Attribution Required**:  
+  > *"Data provided by the Solar Influences Data Center (SILSO), Royal Observatory of Belgium, Brussels"*
+
+### Dataset Format & Structure
+
+**Filename**: `Monthly_mean_SN_number.txt`  
+**Format**: Plain ASCII text  
+
+#### Column Descriptions
+
+| Column | Description                                                                 |
+|--------|-----------------------------------------------------------------------------|
+| 1      | Year (Gregorian)                                                            |
+| 2      | Month (Gregorian)                                                           |
+| 3      | Decimal date (middle of the corresponding month)                            |
+| 4      | Monthly mean total sunspot number                                           |
+| 5      | Monthly mean standard deviation of input sunspot numbers                    |
+| 6      | Number of observations used to compute monthly mean                         |
+| 7      | Definitive/provisional marker (` ` = definitive, `*` = provisional)         |
+
+---
+
+#### Line Format (Character Positions)
+
+- `[1–4]` → Year  
+- `[6–7]` → Month  
+- `[9–16]` → Decimal date  
+- `[19–23]` → Monthly total sunspot number  
+- `[25–29]` → Standard deviation  
+- `[32–35]` → Number of observations  
+- `[37]` → Definitive/provisional indicator  
+
+**Note**: The final column shows whether the data is provisional (`*`) or finalized (blank).
+
